@@ -1,0 +1,156 @@
+[
+  {
+    "copy-from": "DREAMER",
+    "type": "mutation",
+    "id": "DREAMER",
+    "points": 0,
+    "delete": {"cancels": [ "EATER" ]}
+  },
+  {
+    "copy-from": "EATER",
+    "type": "mutation",
+    "id": "EATER",
+    "points": 0,
+    "delete": {"cancels": [ "DREAMER" ]}
+  },
+  {
+    "copy-from": "DREAMSMITH",
+    "type": "mutation",
+    "id": "DREAMSMITH",
+    "points": 0,
+    "delete": {"cancels": [ "INVENTOR" ]}
+  },
+  {
+    "copy-from": "INVENTOR",
+    "type": "mutation",
+    "id": "INVENTOR",
+    "points": 0,
+    "delete": {"cancels": [ "DREAMSMITH" ]}
+  },
+  {
+    "copy-from": "IERDE",
+    "type": "mutation",
+    "id": "IERDE",
+    "points": 0,
+    "delete": {"cancels": [ "DREAMER", "DREAMSMITH", "EATER", "INVENTOR" ]}
+  },
+  {
+    "copy-from": "ARVORE",
+    "type": "mutation",
+    "id": "ARVORE",
+    "points": 0,
+    "delete": {"cancels": [ "DREAMER", "DREAMSMITH", "EATER", "INVENTOR" ]}
+  },
+  {
+    "copy-from": "SALAMANDER",
+    "type": "mutation",
+    "id": "SALAMANDER",
+    "points": 0,
+    "delete": {"cancels": [ "DREAMER", "DREAMSMITH", "EATER", "INVENTOR" ]}
+  },
+  {
+    "copy-from": "UNDINE",
+    "type": "mutation",
+    "id": "UNDINE",
+    "points": 0,
+    "delete": {"cancels": [ "DREAMER", "DREAMSMITH", "EATER", "INVENTOR" ]}
+  },
+  {
+    "copy-from": "HOMULLUS",
+    "type": "mutation",
+    "id": "HOMULLUS",
+    "points": 0,
+    "delete": {"cancels": [ "DREAMER", "DREAMSMITH", "EATER", "INVENTOR" ]}
+  },
+  {
+    "copy-from": "SYLPH",
+    "type": "mutation",
+    "id": "SYLPH",
+    "points": 0,
+    "delete": {"cancels": [ "DREAMER", "DREAMSMITH", "EATER", "INVENTOR" ]}
+  },
+  {
+    "copy-from": "CHANGELING_MAGIC",
+    "type": "mutation",
+    "id": "CHANGELING_MAGIC",
+    "points": 0,
+    "delete": {"cancels": [ "DREAMER", "DREAMSMITH", "EATER", "INVENTOR" ]}
+  },
+  {
+    "copy-from": "CHANGELING_SEASONAL_MAGIC_SPRING",
+    "type": "mutation",
+    "id": "CHANGELING_SEASONAL_MAGIC_SPRING",
+    "points": 0,
+    "delete": {"cancels": [ "DREAMER", "DREAMSMITH", "EATER", "INVENTOR" ]}
+  },
+  {
+    "copy-from": "CHANGELING_SEASONAL_MAGIC_SUMMER",
+    "type": "mutation",
+    "id": "CHANGELING_SEASONAL_MAGIC_SUMMER",
+    "points": 0,
+    "delete": {"cancels": [ "DREAMER", "DREAMSMITH", "EATER", "INVENTOR" ]}
+  },
+  {
+    "copy-from": "CHANGELING_SEASONAL_MAGIC_AUTUMN",
+    "type": "mutation",
+    "id": "CHANGELING_SEASONAL_MAGIC_AUTUMN",
+    "points": 0,
+    "delete": {"cancels": [ "DREAMER", "DREAMSMITH", "EATER", "INVENTOR" ]}
+  },
+  {
+    "copy-from": "CHANGELING_SEASONAL_MAGIC_WINTER",
+    "type": "mutation",
+    "id": "CHANGELING_SEASONAL_MAGIC_WINTER",
+    "points": 0,
+    "delete": {"cancels": [ "DREAMER", "DREAMSMITH", "EATER", "INVENTOR" ]}
+  },
+  {
+    "copy-from": "CHANGELING_COURT_SUMMER",
+    "type": "mutation",
+    "id": "CHANGELING_COURT_SUMMER",
+    "points": 0,
+    "delete": {"cancels": [ "CHANGELING_COURT_WINTER" ]}
+  },
+  {
+    "copy-from": "CHANGELING_COURT_WINTER",
+    "type": "mutation",
+    "id": "CHANGELING_COURT_WINTER",
+    "points": 0,
+    "delete": {"cancels": [ "CHANGELING_COURT_SUMMER" ]}
+  },
+  {
+    "copy-from": "NATIVE_SHAPESHIFTER",
+    "type": "mutation",
+    "id": "NATIVE_SHAPESHIFTER",
+    "points": 0,
+    "delete": {"cancels": [ "DREAMER", "DREAMSMITH", "EATER", "INVENTOR" ]}
+  },
+  {
+    "copy-from": "LILIN_TRAITS",
+    "type": "mutation",
+    "id": "LILIN_TRAITS",
+    "points": 0,
+    "delete": {"cancels": [ "DREAMER", "DREAMSMITH", "EATER", "INVENTOR" ]}
+  },
+  {
+    "copy-from": "GRACKEN",
+    "type": "mutation",
+    "id": "GRACKEN",
+    "points": 0,
+    "delete": {"cancels": [ "DREAMER", "DREAMSMITH", "EATER", "INVENTOR" ]}
+  },
+  {
+    "copy-from": "VAMPIRE",
+    "type": "mutation",
+    "id": "VAMPIRE",
+    "points": 0,
+    "delete": {"cancels": [ "DREAMER", "DREAMSMITH", "EATER", "INVENTOR" ]}
+  },
+  {
+    "copy-from": "DHAMPIR_TRAIT",
+    "type": "mutation",
+    "id": "DHAMPIR_TRAIT",
+    "points": 0,
+    "delete": {"cancels": [ "DREAMER", "DREAMSMITH", "EATER", "INVENTOR" ]}
+  }
+]

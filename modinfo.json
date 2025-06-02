@@ -1,0 +1,11 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "xedraRemoveRestrictions",
+    "name": "Xedra - No class restrictions",
+    "description": "Makes all classes inclusive",
+    "category": "magical",
+    "authors": [ "Runesturn" ],
+    "dependencies": [ "dda", "xedra_evolved" ]
+  }
+]
