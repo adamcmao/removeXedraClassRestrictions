@@ -1,0 +1,12 @@
+[
+  {
+    "copy-from": "EOC_CONDITION_BANNED_DREAM_MAGIC_TRAITS",
+    "type": "effect_on_condition",
+    "id": "EOC_CONDITION_BANNED_DREAM_MAGIC_TRAITS",
+    "condition": {
+      "not": {
+        "u_has_any_trait": []
+      }
+    }
+  }
+]
